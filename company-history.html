@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rockwell Automation - Company History</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    .history-header {
+      background: url('https://i.imgflip.com/4vp8z8.jpg') no-repeat center center;
+      background-size: cover;
+      height: 30vh;
+      position: relative;
+      color: white;
+      text-align: center;
+    }
+    .history-header-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .history-header-text {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .timeline {
+      position: relative;
+      padding: 2rem 0;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #dee2e6;
+    }
+    .timeline-item {
+      position: relative;
+      width: 50%;
+      padding: 1rem 2rem;
+      box-sizing: border-box;
+    }
+    .timeline-item.left {
+      left: 0;
+      text-align: right;
+    }
+    .timeline-item.right {
+      left: 50%;
+      text-align: left;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      top: 1.5rem;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #0d6efd;
+      border: 4px solid white;
+    }
+    .timeline-item.left::before {
+      right: -10px;
+    }
+    .timeline-item.right::before {
+      left: -10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Rockwell Automation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="company-history.html">Company History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="our-staff.html">Our Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- History Header -->
+  <div class="history-header">
+    <div class="history-header-overlay"></div>
+    <div class="history-header-text">
+      <h1 class="display-4">Our Journey</h1>
+      <p class="lead">From Humble Beginnings to Industry Leaders</p>
+    </div>
+  </div>
+
+  <!-- Timeline Section -->
+  <section class="py-5">
+    <div class="container timeline">
+      <div class="timeline-item left">
+        <h4>1990</h4>
+        <p>Rockwell Automation was founded in a small garage with a vision to revolutionize automation technology.</p>
+      </div>
+      <div class="timeline-item right">
+        <h4>2000</h4>
+        <p>Launched the first version of the Retro Encabulator, setting new standards in the industry.</p>
+      </div>
+      <div class="timeline-item left">
+        <h4>2010</h4>
+        <p>Expanded globally, establishing offices in over 20 countries.</p>
+      </div>
+      <div class="timeline-item right">
+        <h4>2020</h4>
+        <p>Introduced the Retro Encabulator 2.0 with enhanced features and improved performance.</p>
+      </div>
+      <div class="timeline-item left">
+        <h4>2024</h4>
+        <p>Continuing innovation with the latest Retro Encabulator models and expanding our product line.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white mt-5 p-4 text-center">
+    <div class="container">
+      <p>&copy; 2024 Rockwell Automation. All rights reserved.</p>
+      <p>
+        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

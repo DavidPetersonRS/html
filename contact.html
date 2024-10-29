@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rockwell Automation - Contact</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    .contact-header {
+      background: url('https://i.imgflip.com/q1xgc.jpg') no-repeat center center;
+      background-size: cover;
+      height: 30vh;
+      position: relative;
+      color: white;
+      text-align: center;
+    }
+    .contact-header-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .contact-header-text {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Rockwell Automation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="company-history.html">Company History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="our-staff.html">Our Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Header -->
+  <div class="contact-header">
+    <div class="contact-header-overlay"></div>
+    <div class="contact-header-text">
+      <h1 class="display-4">Get in Touch</h1>
+      <p class="lead">We'd love to hear from you!</p>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <section class="py-5">
+    <div class="container">
+      <div class="contact-form">
+        <h2 class="mb-4 text-center">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Subject">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your message here..."></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Information -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Our Office</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h5>Address</h5>
+          <p>1234 Automation Drive<br>Tech City, TC 56789</p>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h5>Contact</h5>
+          <p>Email: <a href="mailto:info@rockwellautomation.com">info@rockwellautomation.com</a><br>
+             Phone: (123) 456-7890</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white mt-5 p-4 text-center">
+    <div class="container">
+      <p>&copy; 2024 Rockwell Automation. All rights reserved.</p>
+      <p>
+        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
